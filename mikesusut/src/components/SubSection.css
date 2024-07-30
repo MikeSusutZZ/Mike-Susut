@@ -1,0 +1,17 @@
+/* src/components/SubSection.css */
+.subsection-card {
+    height: 100%; /* Ensure the card takes up the full height of the parent */
+  }
+  
+  .subsection-image-wrapper {
+    overflow: hidden; /* Hide the overflow to crop the image */
+    height: 100px; /* Adjust this value to control the visible height of the image */
+  }
+  
+  .subsection-image {
+    object-fit: cover; /* Ensure the image covers the area */
+    width: 100%;
+    height: auto;
+    transform: translateY(-33%); /* Move the image up to show the top third */
+  }
+  
